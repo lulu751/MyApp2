@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="4"
+   >
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="One,One"
+            android:textAllCaps="false" />
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:text="One,Two"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="One,Three"
+            android:textAllCaps="false"  />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="One,Four"
+            android:textAllCaps="false"  />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Two,One"
+            android:textAllCaps="false"  />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Two,Two"
+            android:textAllCaps="false"   />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Two,Three"
+            android:textAllCaps="false"  />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="Two,Four"
+            android:textAllCaps="false" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Three,One"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Three,Two"
+            android:textAllCaps="false"  />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Three,Three"
+            android:textAllCaps="false"  />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="Three,Four"
+            android:textAllCaps="false"   />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Four,One"
+            android:textAllCaps="false"   />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Four,Two"
+            android:textAllCaps="false" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Four,Three"
+            android:textAllCaps="false"   />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:text="Four,Four"
+            android:textAllCaps="false"   />
+    </TableRow>
+</TableLayout>
+</LinearLayout>
